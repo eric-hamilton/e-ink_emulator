@@ -1,27 +1,27 @@
 # E-Ink Emulator
 
 ## How to run it
-Clone the repo
+### 1. Clone the repo
 
 `https://github.com/eric-hamilton/e-ink_emulator.git`
 
-Enter the repo
+### 2. Enter the repo
 
 `cd e-ink_emulator`
 
-Create a virtual environment
+### 3. Create a virtual environment
 
 `python -m venv venv`
 
-Activate the virtual environment
+### 4. Activate the virtual environment
 
 `venv/Scripts/activate`
 
-Install dependencies
+### 5. Install dependencies
 
 `pip install -r requirements.txt`
 
-Run the Program
+### 6. Run the Program
 
 `python run.py`
 
