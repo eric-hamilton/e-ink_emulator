@@ -1,7 +1,16 @@
 # E-Ink Emulator
 
+## How to run it
+```
+https://github.com/eric-hamilton/e-ink_emulator.git
+cd e-ink_emulator
+python -m venv venv
+venv/Scripts/activate
+python run.py
+```
+
 ## Considerations
-- The hardware code is pulled directly from some Waveshare E-paper library
+- The hardware code is pulled directly from some Waveshare E-paper library.
 I use a hardcoded library for a 2.9 inch Waveshare epaper module. It won't work on most hardware out of the box.
 
 - This uses a hella deprecated PIL module so the text sizing logic is kind of worthless
