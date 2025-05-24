@@ -1,0 +1,14 @@
+# Pins required for the EPD
+RST_PIN = 17
+DC_PIN = 25
+CS_PIN = 8
+BUSY_PIN = 24
+
+#GPIO pins for buttons
+BUTTON_1 = 14
+BUTTON_2 = 15
+BUTTON_3 = 18
+BUTTON_PINS = [BUTTON_1, BUTTON_2, BUTTON_3]
+
+SCREEN_WIDTH = 296
+SCREEN_HEIGHT = 128
